@@ -377,9 +377,9 @@ ombined_data %>%
             labs(title = "Steps Logged by Day in the Week", x = "Day of the Week", y = "Total Steps"
 
   
+<a href="#top" class="scroll-to-top">&#8679; Back to Top</a>
 
-
-                                                                             <a href="#top" class="scroll-to-top">&#8679; Back to Top</a>
+                                                                          
 
 
 
