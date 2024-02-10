@@ -2,10 +2,19 @@
 ## Exploring a Google Data Analytics Case Study: Strategies for Smart Moves in the Wellness Industry.
 
 ## Table of Contents
-
+- [Introduction](#introduction)
 - [ASK](#ask)
-
 - [Business Task](#business-task)
+- [PREPARE](#prepare)
+- [Data Integrity](#data-integrity)
+- [PROCESS](#process)
+- [Tools](#tools)
+- [Cleaning and Processing](#cleaning-and-processing)
+- [Conclusion to processing](#conclusion-to-processing)
+- [Analyze](#analyze)
+- [Insights](#insights)
+- [Share](#share)
+- [](#)
 
 
 
@@ -158,15 +167,15 @@ Review the fundamental details, column headings, summary statistics, data struct
 
    3. Since the ‘’id’’ columns are identifiers in this data set, I do not want them to be seen as a numerical value. Next, I want to convert the ID field to a character data type across all data sets and check the structure after this change. 
 
-        #Convert ID field to a character data type
+          #Convert ID field to a character data type
           daily_activity <- daily_activity %>%  
-            mutate_at(vars("id"), as.character)
+          mutate_at(vars("id"), as.character)
           
           daily_sleep <- daily_sleep %>%
-            mutate_at(vars("id"), as.character)
+          mutate_at(vars("id"), as.character)
           
           weight_log <- weight_log %>%
-            mutate_at(vars("id"), as.character)
+          mutate_at(vars("id"), as.character)
           
           #check the structure 
           str(daily_activity)
@@ -204,7 +213,8 @@ Review the fundamental details, column headings, summary statistics, data struct
 - The activity_date column was in character format and converted to date during our cleaning process
 - We have converted the ID column to a character format so they are not seen as numerical
 - There are 33 IDs in the daily_activity data set which means we did not receive 30 surveys as mentioned but 33
-- We further determine there are more IDs in the daily activity data set compared to the daily_sleep data set which has 24 and the weight_log data set which has 8.
+- We further determine there are more IDs in the daily activity data set compared to the daily_sleep data set which has 24 and the 
+  weight_log data set which has 8.
   
 7. Now, let's identify how many duplicates we have after receiving this information.
 
@@ -214,7 +224,7 @@ Review the fundamental details, column headings, summary statistics, data struct
            sum(duplicated(daily_sleep))
            sum(duplicated(weight_log))
 
-              > sum(duplicated(daily_activity))
+           > sum(duplicated(daily_activity))
            [1] 0
            > sum(duplicated(daily_sleep))
            [1] 3
@@ -224,10 +234,10 @@ Review the fundamental details, column headings, summary statistics, data struct
 
 Review the duplicate entries to verify if they contain identical information in each row. If so, proceed to eliminate the duplicates and ensure the process is executed accurately.
 
-#Review the duplicate entries to confirm if they are actual duplicates with the same entry in every row
+### Review the duplicate entries to confirm if they are actual duplicates with the same entry in every row
            
-           library(janitor)
-           get_dupes(daily_sleep)
+              library(janitor)
+              get_dupes(daily_sleep)
 
               > get_dupes(daily_sleep)
               No variable names specified - using all columns.
@@ -251,7 +261,7 @@ Review the duplicate entries to verify if they contain identical information in 
         > sum(duplicated(daily_sleep))
         [1] 0
 
-Conclusion to processing
+## Conclusion to processing
 
 
 In this phase, duplicates were identified in each dataset. Upon examining the daily_sleep dataset, it was found to solely contain duplicates. The getdupes() function was employed to confirm their identical nature. Subsequently, 3 identical duplicates were detected and removed using the distinct function.
@@ -271,8 +281,8 @@ To kick things off, I'd like to consolidate all the data frames to gain a more c
            right_join(daily_activity, by = c("id", "activity_date")) %>%
            left_join(weight_log, by = c("id", "activity_date"))
          
-         #View the new data frame
-         View(combined_data)
+           #View the new data frame
+           View(combined_data)
 
 Next, I want to add a weekday column to determine the correlation between the day of the week and various columns. 
 
@@ -288,8 +298,8 @@ Next, we'll proceed to summarize the data and uncover any noteworthy insights.
 #Gather statistic summaries to gain insight
          
          combined_data %>%
-           select(total_steps, total_distance, very_active_minutes, fairly_active_minutes, lightly_active_minutes, sedentary_minutes)%>%
-           summary()
+         select(total_steps, total_distance, very_active_minutes, fairly_active_minutes, lightly_active_minutes, sedentary_minutes)%>%
+         summary()
          
          
           total_steps    total_distance   very_active_minutes fairly_active_minutes
@@ -364,8 +374,8 @@ ombined_data %>%
             #Visual for total steps by the day of the week. 
             
             ggplot(combined_data, aes(x = weekday, y = total_steps)) +
-              geom_bar(stat = "identity", fill = "#E69F00") +
-              labs(title = "Steps Logged by Day in the Week", x = "Day of the Week", y = "Total Steps"
+            geom_bar(stat = "identity", fill = "#E69F00") +
+            labs(title = "Steps Logged by Day in the Week", x = "Day of the Week", y = "Total Steps"
 
   
 
