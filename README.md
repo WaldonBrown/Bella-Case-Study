@@ -379,23 +379,7 @@ ombined_data %>%
   
 
 
-<style>
-.scroll-to-top {
-  display: block;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.scroll-to-top:hover {
-  background-color: #0056b3;
-}
-</style>
+<a href="#top" class="scroll-to-top">&#8679; Back to Top</a>
 
 
 
