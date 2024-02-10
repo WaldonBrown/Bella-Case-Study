@@ -12,9 +12,9 @@
 - [Cleaning and Processing](#cleaning-and-processing)
 - [Conclusion to processing](#conclusion-to-processing)
 - [Analyze](#analyze)
-- [Insights](#insights)
+- [Insights:](#insights:)
 - [Share](#share)
-- [](#)
+  
 
 
 
