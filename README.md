@@ -1,6 +1,12 @@
 # Bella-Case-Study
 ## Exploring a Google Data Analytics Case Study: Strategies for Smart Moves in the Wellness Industry.
 
+## Table of Contents
+
+- [ASK](#ask)
+
+- [Business Task](#business-task)
+
 
 
 ### Introduction
