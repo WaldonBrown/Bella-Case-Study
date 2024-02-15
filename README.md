@@ -359,6 +359,99 @@ ombined_data %>%
 
 - The average user weighs 158.8 pounds and has a BMI of 25.19, which is slightly higher than the average.
 
+
+
+
+
+
+![precentage of active minutes png](https://github.com/WaldonBrown/Bella-Case-Study/assets/158518359/fafb6de7-4c35-47bf-a9d2-38c728780962)
+
+- Sedentary: 81.3% (represented in light pink)
+- Lightly Active: 15.8% (represented in purple)
+- Fairly Active: 1.7% (represented in yellow)
+- Very Active: 1.1% (represented in dark purple)
+
+This chart highlights a significant imbalance in activity levels, with the majority of time being spent in sedentary activities. It suggests a need for increased physical activity, particularly activities that fall into the “Fairly Active” and “Very Active” categories. Regular physical activity is important for maintaining good health and preventing various health conditions. It might be beneficial to aim for a more balanced distribution of active minutes.
+
+
+
+
+
+![steps logged by day in the week](https://github.com/WaldonBrown/Bella-Case-Study/assets/158518359/102dbef9-5836-4d02-8d73-25f1cee2e8eb)
+
+This is a bar graph titled “Steps Logged by Day in the Week”. It represents the total steps logged each day from Sunday to Saturday. Here’s a breakdown:
+
+- Sunday: Approximately 600,000 steps were logged.
+- Monday and Tuesday: There’s an increase in steps logged, reaching close to 1,000,000.
+- Wednesday: This day has the highest step count at just over 1,100,000 steps.
+- Thursday: There’s a slight decrease in total steps.
+- Friday and Saturday: The step count increases again on Friday and remains similar on Saturday.
+
+This graph suggests that the individual or group whose steps are being tracked is more active during the middle of the week, with Wednesday being the most active day. The step count decreases slightly on Thursday but then stabilizes for the rest of the week. Regular physical activity is important for maintaining good health, and this data could be used to understand and improve activity patterns. 
+
+
+
+![calories vs active minutes ](https://github.com/WaldonBrown/Bella-Case-Study/assets/158518359/96b68300-6dce-46a8-9f65-cf876cc87f3f)
+
+The shared image depicts a scatter plot graph labeled "Calories vs Active Minutes." Here's a summary and analysis of the data presented:
+
+- Title: The graph is titled “Calories vs Active Minutes,” indicating that it’s comparing the relationship between the number of active minutes and the number of calories burned.
+- Axes: The x-axis represents “Active Minutes” ranging from 0 to 200, and the y-axis represents “Calories Burned” ranging from 0 to 5000.
+- Data Points: The blue dots scattered across the graph represent individual data points. Each point corresponds to a specific number of active minutes and the associated number of calories burned.
+- Trend Line: There’s a dark blue trend line indicating a positive correlation between active minutes and calories burned. This means that as the number of active minutes increases, the number of calories burned also increases.
+- Color Gradient: On the right side, there’s a color gradient bar labeled “calories,” indicating that darker shades of blue represent higher numbers of calories.
+- In conclusion, this graph visually demonstrates that more active minutes generally lead to more calories burned. This is consistent with the understanding that physical activity contributes to calorie expenditure. However, the exact relationship can vary based on factors like the intensity of the activity and individual metabolic rates. Please consult with a healthcare professional for personalized advice.
+
+  
+
+
+![calories vs sedentary minutes ](https://github.com/WaldonBrown/Bella-Case-Study/assets/158518359/d0681e64-7af4-4051-ba35-9916817c7e25)
+
+The provided image displays a scatter plot graph titled "Calories vs Sedentary Minutes." Here's a summary and analysis of the data depicted:
+
+- Title: The graph is titled “Calories vs Sedentary Minutes,” indicating that it’s comparing the relationship between the number of sedentary minutes and the number of calories burned.
+- Axes: The x-axis represents “Sedentary Minutes” ranging from 0 to 1500, and the y-axis represents “Calories Burned” ranging from 0 to 5000.
+- Data Points: The data points are scattered across the graph, more densely populated at lower sedentary minutes and higher calories burned. Each point corresponds to a specific number of sedentary minutes and the associated number of calories burned.
+- Trend Line: There’s a curved trend line indicating an initial increase in calories burned as sedentary minutes increase but then shows a decline. This suggests an inverse relationship between physical inactivity and calorie expenditure.
+- Color Gradient: The color gradient bar on the right indicates the number of calories, with darker shades representing higher calorie counts.
+
+In conclusion, this graph visually demonstrates that more sedentary minutes generally lead to fewer calories burned. This is consistent with the understanding that physical inactivity contributes to lower calorie expenditure. However, the exact relationship can vary based on factors like individual metabolic rates and the type of sedentary activity. Please consult with a healthcare professional for personalized advice.
+
+
+
+
+
+![time asleep vs calories burned](https://github.com/WaldonBrown/Bella-Case-Study/assets/158518359/e06fceab-22f1-4d86-8809-9d922cfc471e)
+
+The image you've provided exhibits a scatter plot graph entitled "Time Asleep vs Calories Burned." Below is a summary and analysis of the data depicted:
+
+- Title: The graph is titled “Time Asleep vs Calories Burned,” indicating that it’s comparing the relationship between the amount of time spent asleep and the number of calories burned.
+- Axes: The x-axis represents “Time Asleep” ranging from 0 to 800, and the y-axis represents “Calories Burned” ranging from 0 to 5000.
+- Data Points: The data points are scattered across the graph, with a concentration around 200-600 Time Asleep and 1000-3000 Calories Burned. Each point corresponds to a specific amount of time spent asleep and the associated number of calories burned.
+- Trend Line: There’s a trend line in dark color running through the data points, indicating an increasing trend but not linear. This suggests that as the time asleep increases, the calories burned also tend to increase but not linearly.
+- Color Gradient: The color gradient bar on the right side indicates the number of calories, with darker shades representing higher calories.
+
+In conclusion, this graph visually demonstrates that more time spent asleep generally leads to more calories burned, but the relationship is not linear. This could be due to various factors such as individual metabolic rates during sleep and the type of sleep (REM vs non-REM). Please consult with a healthcare professional for personalized advice.
+
+
+
+
+
+![time spent asleep vatime spent in bed ](https://github.com/WaldonBrown/Bella-Case-Study/assets/158518359/d9894a17-4c45-4e42-8a14-16b349856a3c)
+
+
+The image shared illustrates a scatter plot graph titled "Time Spent Asleep vs Time Spent in Bed." Below is a summary and analysis of the data presented:
+
+- Title: The graph is titled “Time Spent Asleep vs Time Spent in Bed,” indicating that it’s comparing the relationship between the total time spent asleep and the total time spent in bed.
+- Axes: The x-axis represents “Total Time Asleep,” and the y-axis represents “Total Time in Bed,” both likely measured in minutes.
+- Data Points: The green dots scattered across the plot represent individual data points. Each point corresponds to a specific amount of time spent asleep and the associated total time spent in bed.
+- Trend Line: There’s a blue trend line that slopes upwards, indicating a positive correlation between the time spent asleep and the time spent in bed. This suggests that as the time spent asleep increases, the total time spent in bed also tends to increase.
+
+In conclusion, this graph visually demonstrates that more time spent asleep generally leads to more time spent in bed. However, the exact relationship can vary based on factors like sleep quality and individual sleep patterns. Please consult with a healthcare professional for personalized advice.
+
+
+
+
   ## Share
 
   Now that I have completed the analysis, it's time to create the data visualizations.
